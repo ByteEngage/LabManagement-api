@@ -1,0 +1,7 @@
+﻿services:
+  labmanagement-api:
+    image: labmanagement-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+
